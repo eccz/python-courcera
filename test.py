@@ -1,1 +1,3 @@
-print(1**1/2)
+myTuple = 1, 2, 3, 4
+a, b, c, d = myTuple
+print(a)
