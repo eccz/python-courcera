@@ -6,7 +6,7 @@ entscore = 0
 for line in fin:
     inlist.append(line.split())
 for i in inlist:
-    i.reverse() # перевернул, чтобы цифры шли в начале и не париться с нестандартными именами (тест 1)
+    i.reverse()  # перевернул, чтобы цифры шли в начале и не париться с нестандартными именами (тест 1)
 for std in inlist:
     if int(std[0]) >= 40 and int(std[1]) >= 40 and int(std[2]) >= 40:
         stdlist.append(std)
