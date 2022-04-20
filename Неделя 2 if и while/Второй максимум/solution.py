@@ -6,6 +6,6 @@ while n != 0:
         maxSeq1 = maxSeq2
         maxSeq2 = n
     elif n >= maxSeq1 and n < maxSeq2:
-            maxSeq1 = n
+        maxSeq1 = n
     n = int(input())
 print(maxSeq1)
